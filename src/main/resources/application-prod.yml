@@ -21,6 +21,6 @@ jwt:
 
 saludlink:
   cors:
-    allowed-origins: ${CORS_ALLOWED_ORIGINS}
+    allowed-origins: ${CORS_ALLOWED_ORIGINS:https://spontaneous-faloodeh-3fdd58.netlify.app,http://localhost:4200}
   telemedicine:
     base-url: ${TELEMEDICINE_BASE_URL:https://meet.saludlink.app}
